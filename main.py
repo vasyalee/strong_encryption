@@ -37,7 +37,7 @@ chars = ''
 while True:
     try:
         choice = input('Type "y" if you want to customize your password or just press Enter to create '
-                       'strong password right now'
+                       'strong password right now\n'
                        )
         if choice == 'y':
             num = int(input('How many passwords?\n '))
